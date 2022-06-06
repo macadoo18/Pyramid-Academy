@@ -16,15 +16,15 @@ public class Main {
 
         String playAgain = "";
 
-        System.out.println("Hello! What is your name?");
-        player = scan.next();
-
-        System.out.println(
-            "Well, " + player + " I am thinking of a number between 1 and 20. \n" +
-            "You have 6 tries to get it right. Take a guess."
-        );
-
         try {
+            System.out.println("Hello! What is your name?");
+            player = scan.next();
+
+            System.out.println(
+                "Well, " + player + " I am thinking of a number between 1 and 20. \n" +
+                "You have 6 tries to get it right. Take a guess."
+            );
+
             do {
                 System.out.print("Guess " + count + ": ");
                 guess = scan.nextByte();
